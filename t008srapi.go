@@ -95,12 +95,14 @@ C:.
         └─templates
 
 C:\Users\chouette\go\src\t008srapi>xcopy /e v0.2.0\t008srapi-0.2.0\*.*
-v0.2.0\t008srapi-0.2.0\LICENSE
-v0.2.0\t008srapi-0.2.0\README.md
-v0.2.0\t008srapi-0.2.0\t008srapi.go
-v0.2.0\t008srapi-0.2.0\public\index.html
-v0.2.0\t008srapi-0.2.0\templates\t008top.gtpl
-5 個のファイルをコピーしました
+v0.1.0\t007srapi-0.1.0\freebsd.bat
+v0.1.0\t007srapi-0.1.0\freebsd.sh
+v0.1.0\t007srapi-0.1.0\LICENSE
+v0.1.0\t007srapi-0.1.0\README.md
+v0.1.0\t007srapi-0.1.0\t007srapi.go
+v0.1.0\t007srapi-0.1.0\public\index.html
+v0.1.0\t007srapi-0.1.0\templates\top.gtpl
+7 File(s) copied
 
 C:\Users\chouette\go\src\t008srapi>rmdir /s /q v0.2.0
 
@@ -142,6 +144,7 @@ http://localhost:8080/t008top
 
 	Ver. 0.1.0
 	Ver. 0.2.0 stdouへのログ出力されていたので、出力しないようにする。
+	Ver. 0.2.1 Windowsのインストール方法で、ファイル数を5個から7個に訂正する。
 
 */
 
